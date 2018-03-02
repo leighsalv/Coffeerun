@@ -4,9 +4,11 @@
 
 (function (window) {
   "use strict";
+  /* eslint-disable no-console */
   var App = window.App || {}; //{} new empty object if there's no App property
 
   function DataStore() { //constructor
+    /* eslint-disable no-console */
     console.log("running the DataStore function");
     this.data = {};
   }

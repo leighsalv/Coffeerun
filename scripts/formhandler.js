@@ -5,6 +5,7 @@ will send that data to a Truck instance, using the createOrder method */
 
 (function (window) {
   "use strict";
+  /* eslint-disable no-console */
   var App = window.App || {};
   var $ = window.jQuery;
   function FormHandler(selector) {

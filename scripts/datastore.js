@@ -1,8 +1,7 @@
 /*Serves the same purpose as traditional server-side code*/
 /*Acts as DATA STORAGE*/
 
-
-(function (window) {
+(function(window) {
   "use strict";
   /* eslint-disable no-console */
   var App = window.App || {}; //{} new empty object if there's no App property

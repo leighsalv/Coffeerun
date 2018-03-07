@@ -1,7 +1,7 @@
 /*Serves the same purpose as traditional server-side code*/
 /*Handles BUSINESS LOGIC*/
 
-(function (window) {
+(function(window) {
   "use strict";
   /* eslint-disable no-console */
   var App = window.App || {};

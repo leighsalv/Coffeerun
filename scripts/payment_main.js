@@ -2,14 +2,15 @@
   "use strict";
   /* eslint-disable no-console */
 
-  var PAYMENT_FORM_SELECTOR = "[payment-order=\"form\"]";
-  var POPUP_SELECTOR = "[data-payment-modal=\"popup\"]";
-  var $ = window.jQuery;
+  var PAYMENT_FORM_SELECTOR = "[payment-order='form']";
+  var POPUP_SELECTOR = "[data-payment-modal='popup']";
+
   var App = window.App;
   var Payment = App.Payment;
   var DataStore = App.DataStore;
   var FormHandler = App.FormHandler;
   var PopUp = App.PopUp;
+  var $ = window.jQuery;
   var myPayment = new Payment(new DataStore());
   window.myPayment = myPayment;
   var popUp = new PopUp(POPUP_SELECTOR);

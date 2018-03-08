@@ -1,6 +1,6 @@
 # Coffeerun
 
-A simple e-commerce site that takes coffee orders for a food truck written in **HTML, CSS, Bootstrap, Javascript, and JQuery**. There is also a payment form that takes in users' contact information and credit card information. This is for **Homework 2 - CPSC 473 Front-End Development course**.
+A simple e-commerce site that takes coffee orders for a food truck written in **HTML, CSS, Bootstrap, Javascript, and JQuery**. There is also a payment form that takes in users' contact information and credit card information. This is for **Homework 3 - CPSC 473 Front-End Development course**.
 
 **Functionalities & Features**
 
